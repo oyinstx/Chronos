@@ -280,3 +280,4 @@
 ;; Get transaction details
 (define-read-only (get-transaction (transaction-id uint))
     (map-get? transactions transaction-id))
+    
